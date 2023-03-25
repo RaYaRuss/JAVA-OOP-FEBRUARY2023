@@ -14,6 +14,11 @@ public class TransactionImpl implements Comparable<TransactionImpl>, Transaction
         this.amount = amount;
     }
 
+    @Override
+    public void setStatus(TransactionStatus status) {
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }

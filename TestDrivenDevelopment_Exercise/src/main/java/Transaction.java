@@ -4,4 +4,5 @@ public interface Transaction {
     String getFrom();
     String getTo();
     double getAmount();
+    void setStatus(TransactionStatus transactionStatus);
 }
